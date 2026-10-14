@@ -1,0 +1,160 @@
+
+
+/* SE APLICA A TODO EL CONTENIDO --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.4; /*espacio entre lineas*/
+    color: #00000d;
+    background-color: rgba(220, 221, 221, 0.824);
+    font-size: 16px;
+
+    
+}
+
+header{
+    background:  url("../assets/fondo1.webp"); 
+    background-size: cover; /*para que ocupe todo el espacio*/
+    background-position: center;
+    background-repeat: no-repeat; /* si quito el cover repite la imagen*/
+    height: auto;
+    border-radius: 6px;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+       
+}
+
+/* PARA LA BARRA DE NAVEGACION  ----*/
+
+.nav_bar{
+    flex: 1; /* hace que el nv ocupe todo el ancho disponible*/
+    font-weight: bold; /* negrita */
+   
+}
+
+.nav_bar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;    
+  
+}
+
+.nav_bar li{
+    padding: 0 1.5rem;
+  
+}
+
+.nav_bar a{
+    color: antiquewhite;
+    text-decoration: none; /*quita el subrayado*/
+    
+    
+}  
+
+.menu{
+    list-style: none;  
+}
+
+.logo{
+    flex: 0 0 auto; /* El logo no crece ni se achica */ 
+    width: 40px;
+    height: auto;
+    
+}
+
+/* PARA LAS SECCIONES ----- */
+
+.principal_sec{
+    border: 2px solid #dee4f1;
+    background: #d2d6e9;
+    border-radius: 6px;
+    padding: 2rem;
+
+}
+.secun_sec{
+    margin: 1rem;
+    padding: 0 1rem;
+
+}
+.paisajes_sec{
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    
+
+}
+/* PARA LA PAGINA A VISITAR ----*/
+
+.paisaje_sec{
+    background-color: #c9c9ec;
+    border: 1px solid #c9c9ec; 
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 1rem;
+    width: 40rem; /* LO MAXIMO QUE VA A TENER DE ANCHO CADA TARJETA*/
+
+   
+}
+.paisaje_sec h2 , .paisaje_sec p{
+    text-align: center;
+}
+    
+.descripcion_sec{
+    margin: 0 1rem;
+}
+.descripcion_sec figure{
+   text-align: center;
+
+}
+
+/* PARA TODAS LAS PAGINAS EN GENERAL ----*/
+
+h1{
+    font-size: 2.5rem;
+    color: #100f4d;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.5rem;
+    color: #2c2592;
+    margin: 1rem 0;
+}
+
+h3{
+    color: #223499;
+    margin: 1rem 0;
+}
+
+
+.img_prin{
+    width: 90%; /*ancho flexible */
+    height: 25rem;
+    border: 2px solid #aaaaaa;
+    border-radius: 6px;
+    }
+
+
+/* PARA EL FOOTER ---- */
+
+footer{
+    background-color: #000000;
+    color: #c1cde6;
+    text-align: center;
+    border-radius: 6px;
+    padding: 1.5rem;
+}
